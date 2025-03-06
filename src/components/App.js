@@ -10,12 +10,12 @@ const App = () => {
       
       <BrowserRouter>
 
-        <nav>
-         <Link to={'/home'}>Home</Link>  | 
-         <Link to={'/about'}>About</Link>
-       </nav>
+      <nav>
+               <Link to={'/'}>Home</Link>  | 
+               <Link to={'/about'}>About</Link>
+      </nav>
       <Routes>
-        <Route path="/home" element={<Home/>} />
+        <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
         <Route />
       </Routes>
